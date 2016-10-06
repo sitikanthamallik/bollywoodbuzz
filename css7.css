@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(bac.jpg);
+}
+table{
+	margin-left:300px;
+}
+h2{
+	border:1px solid #00F ; 
+	border-radius:25px;
+	background-color:#0F0;
+	margin-left:300px;
+	margin-right:500px;
+	color:#000;
+	text-shadow:10px 10px 10px #FFFFFF;
+	padding-left:75px;
+}
