@@ -95,7 +95,7 @@ $(document).ready(function(){
 	</div>
  
     <br/>
-<a href="userhome.php">return to home page</a>
+<a href="userhome.html">return to home page</a>
 <br/>
 <pre>
     
@@ -105,6 +105,6 @@ $(document).ready(function(){
 <img src="images/images.jpg" />
 </div>
 <br/>
-<a href="logout.php"><b>logout</b></a>
+<a href="logout.html"><b>logout</b></a>
 </body>
 </html>
