@@ -2,17 +2,17 @@
 $m=$_GET['m'];
 $uid=$_GET["uid"];
 $pwd=$_GET["pwd"];
-include 'db.php';
+include 'db.html';
 if($m=="Delete")
 {
 $sql="delete from user_master where password='".$pwd."' and user_id='".$uid."'";
 $obj=new litdb();
 $obj->selectdb();
 mysql_query($sql);
-header('location:manage.php');
+header('location:manage.html');
 }
 if($m=="Edit")
-{echo '<form method="get" action="update.php"/>';
+{echo '<form method="get" action="update.html"/>';
 echo $uid;
 echo '<br><input type="hidden" name="uid" value="'.$uid.'" />';
 echo '<input type="text" name="pwd" value="'.$pwd.'" />';
